@@ -1,0 +1,1 @@
+palavrauma frase com v rioas palavras diferentesuma frase mais longa, com muitas palavras: o programa lˆ uma string digitada pelo usu rio com gets, armazenando-a no array de caracteres str, que funciona com um buffer ( rea de armazenamento tempor rio), escrevendo seu conte£do no arquivo indicado com fputs.parar de gravar
