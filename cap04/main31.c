@@ -22,6 +22,7 @@ int main() {
         printf("%7.3lf, ", *(pDouble+i));
         soma += pDouble[i]; // acumula valores dados
     }
+    soma += pDouble[i]; // acumula último valor
     // exibe última valor e média
     printf("%7.3lf ]\nMedia = %7.3lf\n", *(pDouble+i), soma/max);
     free(pDouble); // libera memória alocada
