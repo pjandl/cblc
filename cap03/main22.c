@@ -8,7 +8,12 @@ int main() {
 	printf("Digite um inteiro para verificar se primo: ");
 	scanf("%d", &numero);
 
-	// laço para todas as possibilidade de teste
+    // Verifica entrada
+    if (numero < 2) {
+        printf("Inteiro < 2 nao pode ser verificado\n");
+        return 0;
+    }
+    // laço para todas as possibilidade de teste
 	for (i=2; i<=numero/2; i++) {
 		// verifica se numero divisivel por i
 		if (numero%i==0) {
